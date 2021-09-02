@@ -38,5 +38,10 @@ class BaseModel(nn.Module):
   def save(self, label):
     pass
   
+  #def save_network
+  #def save_optimizer
+  #def load_optimizer
+  #def load_network
+  
   def update_learning_rate():
     pass
