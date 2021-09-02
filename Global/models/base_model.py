@@ -13,3 +13,30 @@ class BaseModel(nn.Module):
     self.isTrain = opt.isTrain
     self.Tensor = torch.cuda.FloatTensor if self.gpu_ids else torch.Tensor
     self.save_dir = os.path.join(opt_checkpoints_dir, opt.name)
+    
+  def set_input(self, input):
+    self.input = input
+   
+  def forward(self):
+    pass
+  
+  def test(self):
+    pass
+  
+  def get_image_paths(self):
+    pass
+  
+  def optimize_parameters(self):
+    pass
+  
+  def get_current_visuals(self):
+    return self.input
+  
+  def get_current_errors(self):
+    return {}
+  
+  def save(self, label):
+    pass
+  
+  def update_learning_rate():
+    pass
