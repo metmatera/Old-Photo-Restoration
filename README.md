@@ -1,2 +1,2 @@
-# Old-Photo-Restoration
+# Old Photo Restoration
 Bringing old photos back to life.
